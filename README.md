@@ -1,23 +1,29 @@
-# Pump.fun Sniper Bot
+#🎯 Pump.fun Sniper Bot – Fast, Automated Token Sniper on Solana
 
-This is a Go-based sniper bot for Solana's Pump.fun platform. It monitors the Solana blockchain using Geyser gRPC, detects new token mints on the Pump.fun program, and automatically buys tokens whose market cap exceeds a configurable threshold.
+A high-speed, low-latency sniper bot written in Go, designed for Pump.fun on the Solana blockchain. It uses Geyser gRPC to monitor token mints in real-time and auto-snipes tokens whose market cap exceeds a customizable threshold.
 ---
 
-## Contact
-- [telegram](https://t.me/caterpillardev)
-- [twitter](https://x.com/caterpillardev)
+## 📡 Contact & Community
+- [telegram](https://t.me/ShadowRusii)
+- [twitter](https://x.com/ShadowRusii)
   
 ---
+🚀 Key Features
+🔍 Real-Time Mint Detection — via Geyser gRPC on Solana
 
-## Features
-- **Real-time monitoring** of Pump.fun token mints via Geyser gRPC
-- **Automatic buy** of new tokens above a market cap threshold
-- **Low-latency**: avoids unnecessary RPC calls, uses pre-fetched data
-- **Configurable** via environment variables
+⚡ Auto-Buy Logic — snipes tokens above a set market cap
+
+⏱️ Ultra Low-Latency — uses pre-fetched blockhash and price data
+
+🧠 Smart Filtering — avoids unnecessary RPC calls
+
+⚙️ Fully Configurable — through simple environment variables
+
+🧪 Easy Integration — supports Helius or any Solana RPC
 
 ---
 
-## Requirements
+## 📦 Requirements
 - Go 1.18+
 - Access to a Solana Geyser gRPC endpoint
 - Helius or other Solana RPC endpoint (for sending transactions)
@@ -94,9 +100,12 @@ This is a Go-based sniper bot for Solana's Pump.fun platform. It monitors the So
 
 ---
 
-## Security
-- **Never share your private key.** Use a dedicated wallet for sniping.
-- **Review the code** before running with real funds.
+## 🔐 Security Notice
+⚠️ Never share your private key
+
+🔐 Use a dedicated Solana wallet for this bot
+
+👀 Always review the code before running in live environments
 
 ---
 
